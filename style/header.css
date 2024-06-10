@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.header1{
+    height: 8vh;
+    background-color: red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+#addProject{
+    margin-left: 10rem;
+    cursor:pointer;
+
+}
+
+.addProjectForm{
+    border-radius: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    display: none;
+}
+
+.temp{
+    display: block;
+}
+
+
+ #projectTitle{
+    height: 4vh;
+    width: 50vw;
+ }
+ #projectDescription{
+    height: 4vh;
+    width: 50vw;
+ }
+
+ #addBtn{
+    height:4vh;
+    width:5vw;
+    background-color: red;
+    color:white;
+
+ }
+
+ #cancelBtn{
+    height:4vh;
+    width:8vw;
+    background-color: white;
+    color:red;
+ }
+
+ #activeSection{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid violet;
+    display: block;
+ }
+/* 
+ .activeProjectDisplay{
+    display: block;
+ } */
+
+ .activeProjectHeading{
+    background-color: violet;
+ }
+
+ #cancelBtn{
+    cursor: pointer;
+ }
+
+
+
+
+
+ 
+

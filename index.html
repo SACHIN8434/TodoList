@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/header.css">
+</head>
+<body>
+    <nav class="header1">
+        <div class="heading">Project Planner</div>
+        <div id="addProject">Add Project</div>
+    </nav>
+
+    <form id="form1" class="addProjectForm" action="/">
+        
+        <input type="text" id="projectTitle" placeholder="Enter Project Title"/>
+
+
+        <input type="text" id="projectDescription" placeholder="Enter Project Description"/>
+
+        <button type="submit" id="addBtn">Add</button>
+
+        <button type="button" id="cancelBtn">Cancel</button>
+    </form>
+
+    <!-- Active project Section -->
+    <div id="activeSection">
+        <h2 class="activeProjectHeading">Active Projects</h2>
+
+        
+    </div>
+
+    <div>
+        <h2 class="finishProjectHeading">Finished Project</h2>
+    </div>
+
+
+    <script src="./jsFiles/addProject.js"></script>
+</body>
+</html>
